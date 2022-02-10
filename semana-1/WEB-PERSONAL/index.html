@@ -27,25 +27,66 @@
     </header>
     <main>
         <article>
-            <h1>Hello,I am Rody Josue Ccoyllo</h1>
-       
-            <p>
-                Estudiante de Ingenieria de Computacion y Systemas ,apacionado
-                por el mundo del desarrollo de  software,escalable y mantenible.
-                Dominio del framework sprintboot.
-                
-            </p>
             <div>
-                <button>CV</button>
-                <button>Portafolio</button>
-            
+                <h1>Hello,I am Rody Josue Ccoyllo</h1>
+                <p>
+                    Estudiante de Ingenieria de Computacion y Systemas ,apacionado
+                    por el mundo del desarrollo de  software,escalable y mantenible.
+                    Dominio del framework sprintboot.
                 
+                </p>
+                <div>
+                    <button>CV</button>
+                    <button>Portafolio</button>
+                
+                
+                </div>
             </div>
             <figure>
                 <img src="./img/foto-perfil.jfif" alt="rody-josue" width="320px">
             </figure>
         </article>
     </main>
+    <seccion>
+        <h2>Contacto</h2>
+        <form action="">
+           
+            <input type="text" id="nombre"  placeholder="Nombre" required />
+            
+            <input type="text" id="correo" placeholder="Correo" required/>
+            <input type="number" id="telefono" min="900000000" max="999999999"  placeholder="celular" required/>
+           
+            <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="mensaje" required></textarea>
+            <label for="proyecto">Sueño a realizar</label>
+            <select name="proyecto" id="proyecto">
+                <option value="lading page">lading page</option>
+                <option value="web page">web page</option>
+                <option value="e-comerse">e-comerse</option>
+                <option value="aplicacion empresarial">aplicacion empresarial</option>
+                
+        
+            </select>
+            <h4>Plan</h4>
+            <label for="plan">Basico</label>
+            <input type="radio"  name="plan" id="plan"  value="basico"/>
+            <label for="plan">Medio</label>
+            <input type="radio"  name="plan" id="plan" value="medio" />
+            <label for="plan">pro</label>
+            <input type="radio"  name="plan" id="plan" value="pro" />
+            <hr/>
+            <h4>Secciones adicionales</h4>
+            
+            <label for="SEO">SEO</label>
+            <input type="checkbox" name="upgrade" id="SEO" value="SEO">
+            <label for="HTML">diseño</label>
+            <input type="checkbox" name="upgrade" id="diseño" value="diseño">
+            <label for="marketing">marketing</label>
+            <input type="checkbox" name="upgrade" id="marketing" value="marketing">
+           
+            <hr/>
+            <button type="submit">Enviar</button>
+        </form>
+    </seccion>
        
 
 
