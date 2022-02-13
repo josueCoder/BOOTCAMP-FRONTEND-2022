@@ -62,12 +62,18 @@
     padding: 0;
     justify-content: center;
 }
+
 .skills__skill{
     background-color: #0890b6;
     list-style: none;
     padding: 8px;
     border-radius: 8px;
+    transition: all 0.5s;
 
+}
+.skills__skill:hover{
+    transition: all 0.5s;
+    transform: scale(1.2);
 }
 .footer{
    
