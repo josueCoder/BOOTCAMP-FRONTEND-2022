@@ -1,0 +1,81 @@
+.body{
+    background-color: #282c34;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.header__profesional-image-container{
+    max-width: 300px;
+    margin: auto;
+    
+}
+
+.header__profesional-image{
+    width: 100%;
+    border-radius: 50%;
+}  
+.article{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+}
+.article__title,
+.article__keywors,
+.article__presetation{
+    font-weight: 350;
+    letter-spacing: 3px;
+    margin: 0;
+
+
+}
+.article__title{
+    font-size: 2rem;
+}
+.skills{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.skills__title{ 
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin: 0;
+    
+}
+.article__presetation{
+    font-size: 12px;
+}
+.skills__skills-list{
+   
+    display: flex;
+    gap: 16px;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+.skills__skill{
+    background-color: #0890b6;
+    list-style: none;
+    padding: 8px;
+    border-radius: 8px;
+
+}
+
+.footer__link-website{
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    letter-spacing: 10px;
+   
+}
+
+
+
