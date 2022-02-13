@@ -13,6 +13,7 @@
 .header__profesional-image-container{
     max-width: 300px;
     margin: auto;
+    display: flex;
     
 }
 
@@ -68,13 +69,25 @@
     border-radius: 8px;
 
 }
+.footer{
+   
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+   
+}
 
-.footer__link-website{
+.footer__link-icon-container{
     text-decoration: none;
     font-size: 30px;
     color: white;
-    letter-spacing: 10px;
+    transition: all 0.5s;
    
+      
+}
+.footer__link-icon-container:hover{
+    transition: all 0.5s;
+    transform: scale(1.5);
 }
 
 
