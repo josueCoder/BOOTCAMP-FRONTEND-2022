@@ -4,5 +4,28 @@
     
 }
 .header{
-    box-shadow: 0 0.25rem 0 black;
+    box-shadow: 0 0.25rem 0 #20232a9d;
 }
+.header-nav{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+.header-nav__logo-container{
+    max-width: 4rem;
+}
+.header-nav__logo{
+    width: 100%;
+    border-radius: 50%;
+}
+.header-nav__link-lists{
+    display: flex;
+    gap: 0.75rem;
+    list-style: none;
+
+}
+.header-nav__link{
+    text-decoration: none;
+}
+
