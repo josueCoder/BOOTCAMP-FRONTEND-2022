@@ -66,6 +66,13 @@
     margin: 0;
     
 }
+.skills__title::before{
+    content: "💼";
+}
+.skills__title::after{
+    content: "💼";
+}
+
 .article__presetation{
     font-size: 0.75rem;
 }
