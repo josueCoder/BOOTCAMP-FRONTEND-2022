@@ -1,20 +1,35 @@
 .body{
-    background-color: #282c34;
+    background-image: url('https://wallpapercave.com/wp/wp4923981.jpg');
+    background-size: cover;
+    background-position: center;
+   
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+
+
 }
 .main{
+    background-color: hsla(220, 13%, 18%, 0.966);
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 25px;
+    max-width: 400px;
+    
+    padding: 16px 32px;
+    border-radius: 16px;
 }
 
 .header__profesional-image-container{
-    max-width: 300px;
+    /* max-width: 300px; */
     margin: auto;
     display: flex;
-    
+    max-width: 250px;
 }
 
 .header__profesional-image{
