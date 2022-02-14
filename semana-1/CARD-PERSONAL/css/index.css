@@ -18,18 +18,18 @@
     background-color: hsla(220, 13%, 18%, 0.966);
     display: flex;
     flex-direction: column;
-    gap: 25px;
-    max-width: 400px;
+    gap: 1.563rem;
+    max-width: 25rem;
     
-    padding: 16px 32px;
-    border-radius: 16px;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
 }
 
 .header__profesional-image-container{
     /* max-width: 300px; */
     margin: auto;
     display: flex;
-    max-width: 250px;
+    max-width: 15.625rem;
 }
 
 .header__profesional-image{
@@ -39,14 +39,14 @@
 .article{
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 1rem;
 
 }
 .article__title,
 .article__keywors,
 .article__presetation{
     font-weight: 350;
-    letter-spacing: 3px;
+    letter-spacing: 0.188;
     margin: 0;
 
 
@@ -57,22 +57,22 @@
 .skills{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 0.625rem;
 }
 
 .skills__title{ 
-    font-size: 18px;
+    font-size: 1.125 rem;
     letter-spacing: 2px;
     margin: 0;
     
 }
 .article__presetation{
-    font-size: 12px;
+    font-size: 0.75rem;
 }
 .skills__skills-list{
    
     display: flex;
-    gap: 16px;
+    gap: 1rem;
     margin: 0;
     padding: 0;
     justify-content: center;
@@ -93,14 +93,14 @@
 .footer{
    
     display: flex;
-    gap: 20px;
+    gap: 1.25rem;
     justify-content: center;
    
 }
 
 .footer__link-icon-container{
     text-decoration: none;
-    font-size: 30px;
+    font-size: 1.875rem;
     color: white;
     transition: all 0.5s;
    
