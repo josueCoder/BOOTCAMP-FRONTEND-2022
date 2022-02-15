@@ -1,16 +1,22 @@
+:root{
+    scroll-behavior: smooth;
+}
+
 .body{
     margin: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     
 }
 .header{
-    box-shadow: 0 0.25rem 0 #20232a9d;
+    box-shadow: 0 0.25rem 0 #e5e5e5;
 }
 .header-nav{
+    max-width: 1024px;
     display: flex;
     justify-content:space-between;
     align-items: center;
-    padding: 1rem 2rem;
+    padding: 0.25rem 2rem;
+    margin: auto;
 }
 .header-nav__logo-container{
     max-width: 4rem;
@@ -27,5 +33,12 @@
 }
 .header-nav__link{
     text-decoration: none;
+    font-weight: 700;
+    color: #282c28;
+    transition: all 0.25s;
+}
+.header-nav__link:hover{
+    color:#61dafb ;
+    border-bottom: solid gold;
 }
 
