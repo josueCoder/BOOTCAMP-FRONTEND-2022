@@ -2,6 +2,8 @@
     scroll-behavior: smooth;
     --my-color:#34d69b;
     --my-text-color:#4b22f4;
+    --theme-color:#fff;
+    --inverse-theme-color:#20232a;
 }
 
 .body{
@@ -48,6 +50,7 @@
    
     text-align: center;
     padding: 2rem 0;
+   
 }
 .perfil-container{
     padding: 0 2rem;
@@ -171,5 +174,23 @@
 .experiencia__activity{
     list-style: square;
 }
+.wave-separador{
 
+}
+
+.wave-separador--r-180deg{
+    transform: rotate(180deg);
+    margin: -0.5rem 0 0 0;
+}
+
+.wave-separador__wave-container{
+    display: flex;
+    margin: 0;
+   
+}
+
+
+.wave-separador__wave{
+    width: 100%;
+}
 
