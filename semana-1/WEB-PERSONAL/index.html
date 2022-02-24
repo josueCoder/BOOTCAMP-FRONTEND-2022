@@ -123,45 +123,21 @@
     </section>
 
 
-    <seccion id="contacto">
-        <h2>Contacto</h2>
-        <form action="">
-           
-            <input type="text" id="nombre"  placeholder="Nombre" required />
+    <seccion class="contacto" id="contacto">
+        <div class="contacto-container">
+            <h2 class="contacto__title">Contacto</h2>
+            <form action="#" class="contacto__form">
             
-            <input type="text" id="correo" placeholder="Correo" required/>
-            <input type="number" id="telefono" min="900000000" max="999999999"  placeholder="celular" required/>
-           
-            <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="mensaje" required></textarea>
-            <label for="proyecto">Sueño a realizar</label>
-            <select name="proyecto" id="proyecto">
-                <option value="lading page">lading page</option>
-                <option value="web page">web page</option>
-                <option value="e-comerse">e-comerse</option>
-                <option value="aplicacion empresarial">aplicacion empresarial</option>
-                
-        
-            </select>
-            <h4>Plan</h4>
-            <label for="plan">Basico</label>
-            <input type="radio"  name="plan" id="plan"  value="basico"/>
-            <label for="plan">Medio</label>
-            <input type="radio"  name="plan" id="plan" value="medio" />
-            <label for="plan">pro</label>
-            <input type="radio"  name="plan" id="plan" value="pro" />
-            <hr/>
-            <h4>Secciones adicionales</h4>
+                <input class="contacto__form-input" type="text" id="nombre"  placeholder="Nombre" required />
             
-            <label for="SEO">SEO</label>
-            <input type="checkbox" name="upgrade" id="SEO" value="SEO">
-            <label for="HTML">diseño</label>
-            <input type="checkbox" name="upgrade" id="diseño" value="diseño">
-            <label for="marketing">marketing</label>
-            <input type="checkbox" name="upgrade" id="marketing" value="marketing">
-           
-            <hr/>
-            <button type="submit">Enviar</button>
-        </form>
+                <input class="contacto__form-input" type="text" id="correo" placeholder="Correo" required/>
+                <input class="contacto__form-input" type="number" id="telefono" min="900000000" max="999999999"  placeholder="celular" required/>
+            
+                <textarea class="contacto__form-input" name="mensaje" id="mensaje" cols="30" rows="10" placeholder="mensaje" required></textarea>
+            
+                <button class="contacto__form-button" type="submit">Enviar</button>
+            </form>
+        </div>
     </seccion>
     <footer>
         <nav>
