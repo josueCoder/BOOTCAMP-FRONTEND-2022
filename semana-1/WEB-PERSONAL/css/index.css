@@ -13,6 +13,9 @@
 }
 .header{
     box-shadow: 0 0.25rem 0 #e5e5e5;
+    position: sticky;
+    top: 0;
+    background-color: white;
 }
 .header-nav{
     max-width: 1024px;
@@ -194,6 +197,62 @@
 .wave-separador__wave{
     width: 100%;
 }
+.skills{
+    padding: 2rem 0;
+    text-align: center;
+}
+.skills-container{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding:0 2rem ;
+    max-width: 1024px;
+    margin: auto;
+    
+}
+
+.skills__title{ 
+    font-size: 1.125 rem;
+    letter-spacing: 2px;
+    margin: 0;
+    
+}
+.skills__title::before{
+    content: "💼";
+}
+.skills__title::after{
+    content: "💼";
+}
+
+
+.skills__skills-list{
+   
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+
+.skills__skill{
+    background-color:var(--inverse-theme-color);
+    list-style: none;
+    color: white;
+    padding: 8px;
+    border-radius: 8px;
+    transition: all 0.5s;
+
+}
+.skills__skill:hover{
+    box-shadow: 0 0 0.5rem 0.25rem var(--my-color);
+    transition: all 0.5s;
+    transform: scale(1.2);
+    
+}
+
+
+
 .contacto{
     text-align: center;
     padding: 2rem 0;
@@ -221,10 +280,12 @@
     border-radius: 0.5rem;
     padding: 0.75rem;
     outline: none;
+    background-image: linear-gradient(to right,rgba(233, 255, 192, 0.192),rgba(0, 255, 170, 0.212),rgba(126, 180, 190, 0.151));
      
 }
 .contacto__form-input:focus{
    border: 0.25rem solid var(--my-color);
+   box-shadow: 0 0 0.5rem 0 var(--my-text-color);
      
 }
 .contacto__form-button{
