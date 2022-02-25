@@ -61,6 +61,10 @@
     max-width: 1024px;
     margin: 0 auto;
 }
+.perfil-container{
+   
+
+}
 .perfil__info{
     display: flex;
     flex-direction: column;
@@ -303,6 +307,27 @@
     background-color: #fff;
     transition: all 0.5s;
 }
+
+@media(min-width: 854px){
+    .perfil-container{
+        display: flex;
+        padding: 0 2rem;
+        max-width: 1024px;
+        margin: 0 auto;
+        align-items: center;
+    }
+    .perfil__info{
+        flex: 1;
+
+    }
+    .perfil__cover-image{
+        flex: 1;
+
+    }
+}
+
+
+
 
 
 
