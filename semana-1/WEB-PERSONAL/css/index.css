@@ -36,13 +36,17 @@
     display: flex;
     gap: 0.75rem;
     list-style: none;
+    padding: 0;
+   
 
 }
 .header-nav__link{
     text-decoration: none;
-    font-weight: 700;
+    font-weight: 900;
     color: #282c28;
     transition: all 0.25s;
+    font-size: 12px;
+
 }
 .header-nav__link:hover{
     color:var(--my-text-color) ;
@@ -309,6 +313,14 @@
 }
 
 @media(min-width: 854px){
+    
+    .header-nav__link{
+        
+        font-size: 1rem;
+    
+    }
+    
+    
     .perfil-container{
         display: flex;
         padding: 0 2rem;
@@ -319,6 +331,15 @@
     .perfil__info{
         flex: 1;
 
+    }
+    .perfil__info-title{
+        font-size: 2rem;
+    }
+    .perfil___info-description{
+        margin: 0;
+        font-size: 1rem;
+        letter-spacing: 2px;
+    
     }
     .perfil__cover-image{
         flex: 1;
