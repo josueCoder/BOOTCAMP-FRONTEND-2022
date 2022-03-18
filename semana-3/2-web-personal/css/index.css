@@ -184,9 +184,15 @@
     font-size: 2rem;
     text-align: center;
     letter-spacing: 2px;
-
-
+    
 }
+.experiencia__title::before{
+   content: '💻';
+}
+.experiencia__title::after{
+    content: '💻';
+ }
+
 .experiencia__experiencias{
     display: flex;
     flex-direction: column;
@@ -312,6 +318,13 @@
     text-align: center;
     letter-spacing: 2px;
 
+}
+.contacto__title::before{
+  content: '📱';
+}
+.contacto__title::after{
+    content: '📱';
+  
 }
 .contacto__form{
     display: flex;
