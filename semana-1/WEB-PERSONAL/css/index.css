@@ -319,12 +319,17 @@
     color: var(--my-color);
 }
 .footer-nav{
+    padding: 0 2rem; 
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
 
 }
 .footer-nav__link-list{
     display: flex;
     justify-content: center;
     gap: 2rem;
+    margin: 0;
     padding: 0;
 
 }
@@ -334,6 +339,7 @@
 }
 .footer-nav__link-item:hover{
    transform: scale(1.5);
+   filter: brightness(150%);
    transition: all 0.5s;
 }
 .footer-nav__link{
@@ -347,9 +353,10 @@
 .footer-nav__credits{
     color: var(--theme-color);
     font-size: 0.8rem;
+    margin: 0;
 
 }
-.footer-nav__author-credits{
+.footer-nav__credits-author{
     color: var(--my-color);
     text-decoration: none;
 }
@@ -387,6 +394,13 @@
     .perfil__cover-image{
         flex: 1;
 
+    }
+    .footer-nav__link-list{
+        gap: 2.5rem;
+    }
+    .footer-nav__link-icon{
+        font-size: 2.5rem;
+    
     }
 }
 
