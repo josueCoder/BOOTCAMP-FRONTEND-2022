@@ -4,6 +4,7 @@
     --my-text-color:#4b22f4;
     --theme-color:#fff;
     --inverse-theme-color:#20232a;
+    --color-box-shadow:#20232a9f;
 }
 
 .body{
@@ -16,25 +17,44 @@
     position: sticky;
     top: 0;
     background-color: white;
+    
+   
 }
 .header-nav{
     max-width: 1024px;
     display: flex;
     justify-content:space-between;
     align-items: center;
-    padding: 1rem 2rem;
+    padding: 0 2rem;
     margin: auto;
+    height: 4rem;
 }
 .header-nav__logo-container{ 
-    display: none;
+  
+    display: block;
+    max-width: 2.3rem;
+    
 }
+
 .header-nav__logo{
     width: 100%;
     border-radius: 50%;
 }
 .header-nav__link-lists{
+    background-color: var(--color-box-shadow);
+    position: fixed;
+    top: 4rem;
+    bottom: 0;
+    left: 0;
+    right:0;
+
+    
     display: flex;
-    gap: 1rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 2.5rem;
     list-style: none;
     padding: 0;
     margin: 0;
@@ -46,12 +66,19 @@
     font-weight: 900;
     color: #282c28;
     transition: all 0.25s;
-    font-size: 0.9rem;
+    font-size: 1.5rem;
 
 }
 .header-nav__link:hover{
     color:var(--my-text-color) ;
     border-bottom: solid var(--my-color);
+}
+.header-nav__menu-icon-container{
+    width: 2rem;
+    margin: 0;
+}
+.header-nav__menu-icon{
+    width: 100%;
 }
 
 .perfil{
@@ -366,10 +393,7 @@
 
 
 @media(min-width: 854px){
-    .header-nav__logo-container{
-        display: block;
-        max-width: 4rem;
-    }
+   
     
     .header-nav__link{
         
