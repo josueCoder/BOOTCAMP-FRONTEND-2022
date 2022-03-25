@@ -563,12 +563,13 @@
         align-items: center;
         gap: 2rem;
         margin: auto;
+       
     
     }
 
     .projects__projects{
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
     }
     .footer-nav{
        
