@@ -72,21 +72,15 @@
     border-bottom: solid var(--my-color);
 }
 .header-nav__menu-icon-container{
-    width: 2rem;
+    height: 2rem;
     margin: 0;
     cursor: pointer;
+
 }
 .header-nav__menu-icon{
-    width: 100%;
+    height: 100%;
 }
-.header-nav__menu-checkbox{
-    display: none;
-}
-.header-nav__menu-checkbox:checked+.header-nav__link-lists{
-    
-    left: 0;
-   
-}
+
 .header-nav__link-lists{
     background-color: var(--color-box-shadow);
     position: fixed;
@@ -95,14 +89,19 @@
     left: 100%;
     width: 100%;
     transition: all 0.5s;
-
-  
     gap: 2.5rem;
     list-style: none;
     padding: 0;
     margin: 0;
    
 
+}
+.header-nav__link-lists--left-0{
+    left: 0;
+}
+
+.header-nav__link-lists__link-item{
+    list-style: none;
 }
 .perfil{
    
