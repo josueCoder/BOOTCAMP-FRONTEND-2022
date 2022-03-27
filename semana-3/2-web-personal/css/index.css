@@ -14,6 +14,22 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: var(--text-color);
 }
+.header-nav__link-lists,
+.projects__projects{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.header-nav,
+.perfil-container,
+.contacto-container,
+.experiencia-container,
+.skills-container{
+    padding: 0 2rem;
+}
 
 
 .header{
@@ -28,12 +44,9 @@
    
 }
 .header-nav{
-    max-width: 1024px;
     display: flex;
     justify-content:space-between;
     align-items: center;
-    padding: 0 2rem;
-    margin: auto;
     height: 4rem;
    
 }
@@ -83,10 +96,7 @@
     width: 100%;
     transition: all 0.5s;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  
     gap: 2.5rem;
     list-style: none;
     padding: 0;
@@ -100,16 +110,7 @@
     padding: 2rem 0;
    
 }
-.perfil-container,
-.contacto-container{
-    padding: 0 2rem;
-    max-width: 1024px;
-    margin: 0 auto;
-}
-.perfil-container{
-   
 
-}
 .perfil__info{
     display: flex;
     flex-direction: column;
@@ -177,13 +178,11 @@
     padding: 2rem 0;
 }
 .experiencia-container{
-    padding: 0 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap:1.5rem;
-    max-width: 1024px;
-    margin: auto;
+   
 }
 .experiencia__title{
     margin: 0;
@@ -270,10 +269,7 @@
 
 }
 .projects__projects{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+   
     gap:2rem
 }
 .projects__project{
@@ -372,10 +368,6 @@
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    padding:0 2rem ;
-    max-width: 1024px;
-    margin: auto;
-    
 }
 
 .skills__title{ 
@@ -532,6 +524,20 @@
 
 @media(min-width: 854px){
    
+    .header-nav,
+    .perfil-container,
+    .contacto-container,
+    .projects-container
+    .experiencia-container,
+    .skills-container,
+    .footer-nav{
+        max-width: 1024px;
+        margin: auto;
+        padding: 0 
+        
+       
+    }
+
     
     .header-nav__link{
         
@@ -543,7 +549,6 @@
     .perfil-container{
         display: flex;
         padding: 0 2rem;
-        max-width: 1024px;
         margin: 0 auto;
         align-items: center;
     }
@@ -578,13 +583,7 @@
         grid-template-columns: 1fr 1fr 1fr;
         max-width:1024px ;
     }
-    .footer-nav{
-       
-        padding: 0 ;
-        max-width: 1024px;
-        margin: 0 auto;
-        
-    }
+    
     .footer-nav__link-list{
         gap: 2.5rem;
     }
