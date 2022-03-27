@@ -1,6 +1,7 @@
 :root{
     scroll-behavior: smooth;
     --my-color:#34d69b;
+    --text-color:#000;
     --my-text-color:#4b22f4;
     --theme-color:#fff;
     --inverse-theme-color:#20232a;
@@ -8,15 +9,20 @@
 }
 
 .body{
-    margin: 0;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     
+    background-color: var(--theme-color);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: var(--text-color);
 }
+
+
 .header{
     box-shadow: 0 0.25rem 0 #e5e5e5;
     position: sticky;
     top: 0;
-    background-color: #fff;
+    width: 100%;
+    z-index: 100;
+    background-color: var(--theme-color);
    
     
    
@@ -570,6 +576,7 @@
     .projects__projects{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+        max-width:1024px ;
     }
     .footer-nav{
        
