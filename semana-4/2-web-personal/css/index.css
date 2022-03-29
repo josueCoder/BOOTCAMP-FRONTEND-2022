@@ -38,10 +38,16 @@
     top: 0;
     width: 100%;
     z-index: 100;
+    transition:all 0.5s;
+    padding: 0.25rem 0;
     background-color: var(--theme-color);
    
     
    
+}
+.header--scroll{
+    padding: 0;
+    background-color: var(--inverse-theme-color);  
 }
 .header-nav{
     display: flex;
@@ -79,6 +85,11 @@
 }
 .header-nav__menu-icon{
     height: 100%;
+}
+.header-nav__menu-icon--scroll{
+    fill: var(--theme-color);
+    transition: all 0.5s;
+    
 }
 
 .header-nav__link-lists{
@@ -605,6 +616,9 @@
     }
     .header-nav__link{
         color: var(--inverse-theme-color);
+    }
+    .header-nav__link--scroll{
+        color: var(--theme-color);
     }
 }
 
